@@ -1,0 +1,84 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/03/2014, 04:35:58 PM
+    Author     : panzer
+*/
+html,body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background:linear-gradient(#EAEFF2,#D4DDE4);
+
+}
+body{
+    min-height: 100%;
+    overflow:scroll;
+}
+body #mainheader{
+    height: 35px;
+    background:linear-gradient(#FF9500,#E66000);
+    line-height: 35px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color:white;
+    padding-left:12px;
+    text-shadow: 1px 1px black;
+}
+div{
+
+}
+
+.message {
+    width:  100%;
+    text-align: center;
+    height: calc( 100% -35px); 
+}   
+
+
+.nodeListWrapper .nodeList {
+	
+}
+
+.nodeListWrapper .nodeList header{
+    text-transform: uppercase;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #E66000;
+    margin-left:1.5em;
+    margin-right: 1.5em;
+
+    border-bottom-color: #E66000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+}
+.nodeListWrapper .nodeList .nodeListElement {
+    margin-left:1.5em;
+    margin-right: 1.5em;
+    height: 50px;
+    display: block;
+    text-decoration:none;
+    color:inherit;
+}
+.nodeListWrapper .nodeList .nodeListElement:active{
+    background-color: #00AACC;
+}
+
+.nodeListWrapper .nodeList .nodeListElement .nodeListElement_label {
+    height: 100%;
+    display:inline-block;
+    line-height: 50px;
+}
+
+.nodeListWrapper .nodeListElement_img {
+   height: 100%;
+    display:inline-block;
+    line-height: 50px;
+}

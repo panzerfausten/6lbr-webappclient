@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home Motes</title>
+        <meta charset="UTF-8">
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/nodeList.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <header id="mainheader">
+            Welcome Home
+        </header>
+        <div class="message">Current Motes<br>
+            <img class="message_img" src="http://mozorg.cdn.mozilla.net/media/img/styleguide/products/firefoxos/action-icons/common-refresh.png" alt="ad"/>
+        </div>
+	<div class="nodeListWrapper"> 
+       
+	</div>
+        <script>
+            $(document).ready(function() {
+                getMotesList();
+		$(".message_img").click(function (){
+			$(".nodeListWrapper").html("");
+			getMotesList();
+
+		});
+            });
+        </script>
+    </body>
+
+</html>
